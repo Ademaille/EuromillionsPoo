@@ -1,5 +1,32 @@
 // Script comme euromillions mais maintenant à modifier en orienté objet
 
+class NumberGenerate {
+
+    #ronds;
+    #etoiles;
+
+    constructor(ronds, etoiles) {
+        this.#ronds = ronds;
+        this.#etoiles = etoiles;
+    }
+
+    get ronds() {
+        this.#ronds;
+    }
+
+    set ronds(rond) {
+        this.#ronds = rond;
+    }
+
+    get etoiles() {
+        this.#etoiles;
+    }
+
+    set etoiles(star) {
+        this.#etoiles = star;
+    }
+}
+
 
 
 // function genererNombres(nbNombres, nbMax) {
@@ -33,6 +60,6 @@
 
 //     for (let i = 0; i < numerosTwo.length; i++) {
 //         numerosTwo[i].textContent = nombresEtoiles[i];
-//         console.dir(numerosTwo[i])  
-//     }           
+//         console.dir(numerosTwo[i])
+//     }
 // });
