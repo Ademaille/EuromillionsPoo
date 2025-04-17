@@ -1,0 +1,82 @@
+body {
+    background-color: #ff8000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a {
+    font-size: 1rem;
+    text-decoration: 1px underline black;
+    font-weight: 300;
+}
+
+.contenu {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+button {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.uniqueNumbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.newNumber {
+    width: 65px;
+    height: 65px;
+    border-radius: 32px;
+    background-color: orangered;
+    margin: 18px 12px;
+}
+
+.rond-text {
+    font-size: 1.5rem;
+}
+
+.newNumber2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.étoiles {
+    width: 75px;
+    height: 75px;
+    margin: 10px 0 0 20px;
+    background-color: orange;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.star::before {
+    display: inline-block;
+    height: 100%;
+    background: blue;
+    content: '';
+}
+
+.étoile-text {
+    color: black;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+}
