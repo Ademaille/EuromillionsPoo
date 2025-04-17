@@ -11,6 +11,8 @@ function NumberGenerate(nbNombres, nbMax) {
     return uniqueNumbers;
 }
 
+console.log(NumberGenerate)
+
 const button = document.querySelector(".tirage");
 button.addEventListener("click", () => {
 
