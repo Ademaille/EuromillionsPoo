@@ -2,46 +2,19 @@
 
 class NumberGenerate {
 
-    #ronds;
-    #etoiles;
-    #numFives;
-    #numTwo;
+    #uniqueNumbers;
 
-    constructor(ronds, etoiles) {
-        this.#ronds = ronds;
-        this.#etoiles = etoiles;
+    constructor(uniqueNumbers) {
+
+        this.#uniqueNumbers = uniqueNumbers;
     }
 
-    get ronds() {
-        this.#ronds;
+    get uniqueNumbers() {
+        return this.#uniqueNumbers;
     }
 
-    set ronds(rond) {
-        this.#ronds = rond;
-    }
-
-    get etoiles() {
-        this.#etoiles;
-    }
-
-    set etoiles(star) {
-        this.#etoiles = star;
-    }
-
-    get numFives() {
-        this.#numFives;
-    }
-
-    set numFives(Five) {
-        this.#numFives = Five;
-    }
-
-    get numTwo() {
-        this.#numTwo;
-    }
-
-    set numTwo(Two) {
-        this.#numTwo = Two;
+    set uniqueNumbers(Numbers) {
+        this.#uniqueNumbers = Numbers;
     }
 }
 
